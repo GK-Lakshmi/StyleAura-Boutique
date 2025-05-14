@@ -1,0 +1,95 @@
+
+import { Product } from '@/types';
+
+export const bestSellersProducts: Product[] = [
+  {
+    id: "best1",
+    name: "Classic Banarasi Silk Saree",
+    price: 9999,
+    salePrice: 7999,
+    discount: 20,
+    description: "Timeless Banarasi silk saree with intricate golden zari work, perfect for weddings and special occasions.",
+    imageUrl: "https://cdn.exoticindia.com/images/products/original/textiles-2019/gag530.jpg",
+    category: "sarees",
+    size: ["Free Size"],
+    available: true,
+    inStock: 15,
+    colors: ["Red", "Blue", "Purple"],
+    tags: ["bestseller", "wedding", "silk", "best-sellers"]
+  },
+  {
+    id: "best2",
+    name: "Embroidered Cotton Kurti",
+    price: 2499,
+    salePrice: 1999,
+    discount: 20,
+    description: "Comfortable cotton kurti with elegant hand embroidery, perfect for daily wear and casual occasions.",
+    imageUrl: "https://www.rozinaa.com/cdn/shop/files/Rozina07-10-2302778.jpg?v=1700723356&width=1445",
+    category: "kurtis",
+    size: ["S", "M", "L", "XL", "XXL"],
+    available: true,
+    inStock: 25,
+    colors: ["Blue", "Green", "Yellow"],
+    tags: ["bestseller", "cotton", "daily", "best-sellers"]
+  },
+  {
+    id: "best3",
+    name: "Designer Party Gown",
+    price: 7999,
+    salePrice: 6499,
+    discount: 18,
+    description: "Elegant designer party gown with modern cut and premium fabric for a sophisticated look.",
+    imageUrl: "https://www.sairasboutique.net/cdn/shop/files/BlackDesignerEmbroideredPureGeorgettePartyWearGown-Saira_sBoutique_1.jpg?v=1722830793",
+    category: "gowns",
+    size: ["XS", "S", "M", "L"],
+    available: true,
+    inStock: 10,
+    colors: ["Black", "Maroon", "Navy"],
+    tags: ["bestseller", "party", "designer", "best-sellers"]
+  },
+  {
+    id: "best4",
+    name: "Contemporary Indo-Western Dress",
+    price: 5999,
+    salePrice: 4999,
+    discount: 16,
+    description: "Contemporary indo-western dress that combines traditional elements with modern design for a unique look.",
+    imageUrl: "https://fabanza.com/media/catalog/product/cache/c26a0736877cb8c5e2d45478f82a04d0/anishka-creation/202306/wine-premium-georgette-modern-indo-western-dress-fabku20778.jpg",
+    category: "indo-western",
+    size: ["XS", "S", "M", "L", "XL"],
+    available: true,
+    inStock: 12,
+    colors: ["Rust", "Olive", "Mustard"],
+    tags: ["bestseller", "fusion", "contemporary", "best-sellers"]
+  },
+  {
+    id: "best5",
+    name: "Zari Work Silk Saree",
+    price: 12999,
+    salePrice: 9999,
+    discount: 23,
+    description: "Luxurious silk saree with intricate zari work border and traditional design elements.",
+    imageUrl: "https://www.koskii.com/cdn/shop/files/koskii-ranipink-zariwork-banarasisilk-designer-saree-saus0034391_ranipink_1_6.jpg?v=1721056175&width=1080",
+    category: "sarees",
+    size: ["Free Size"],
+    available: true,
+    inStock: 8,
+    colors: ["Maroon", "Green", "Gold"],
+    tags: ["bestseller", "wedding", "silk", "best-sellers"]
+  },
+  {
+    id: "best6",
+    name: "Embellished Wedding Lehenga",
+    price: 19999,
+    salePrice: 15999,
+    discount: 20,
+    description: "Stunning wedding lehenga with crystals, sequins and hand embroidery for the perfect bridal look.",
+    imageUrl: "https://img.perniaspopupshop.com/catalog/product/a/j/AJPR082404_1.jpg?impolicy=detailimageprod",
+    category: "lehengas",
+    size: ["S", "M", "L"],
+    available: true,
+    inStock: 5,
+    colors: ["Red", "Pink", "Burgundy"],
+    tags: ["bestseller", "wedding", "bridal", "best-sellers"]
+  }
+];
